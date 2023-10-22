@@ -10,7 +10,7 @@ setup(
     description='A small description about your package',  # 패키지에 대한 간단한 설명
     long_description="hello world",  # README.md 파일에서 긴 설명을 불러옵니다.
     url='https://github.com/woorej/package_test.git',  # 패키지의 소스 코드가 호스팅되는 URL (보통 GitHub 리포지토리)
-    scripts=['./bin/client.py']
+    scripts=['./bin/client.py'],
     classifiers=[
         # 패키지에 대한 분류자. 전체 리스트는 https://pypi.org/classifiers/ 에서 확인할 수 있습니다.
         'Programming Language :: Python :: 3',
